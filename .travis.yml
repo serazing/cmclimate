@@ -9,12 +9,8 @@ matrix:
   include:
   - python: 2.7
     env: CONDA_ENV=py27-min
-  - python: 2.7
-    env: CONDA_ENV=py27-dev
   - python: 3.5
-    env: CONDA_ENV=py35-min
-  - python: 3.5
-    env: CONDA_ENV=py35-dev
+    env: CONDA_ENV=py35
 
 before_install:
   - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
@@ -36,7 +32,7 @@ install:
   - pip install coveralls
 
 script:
-  - py.test xscale --cov=xscale --cov-report=term-missing
+  - py.test cmclimate --cov=cmclimate --cov-report=term-missing
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
