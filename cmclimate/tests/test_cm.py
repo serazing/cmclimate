@@ -13,4 +13,4 @@ def test_cmap_import():
         plt.figure()
         plt.pcolor(x2d, cmap=cmap)
         plt.title(name)
-        plt.close()g=
+        plt.close()
