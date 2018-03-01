@@ -7,9 +7,9 @@ The package cmclimate reproduces the NCL colortables_ to be used within
 maplotlib_. The colorbars are similarly called as in cmocean_.
 
 
-.. _colortables:: http://xscale.readthedocs.io/en/latest/
-.. _matplotlib:: https://matplotlib.org/
-.. _cmocean:: https://matplotlib.org/cmocean/
+.. _colortables: http://xscale.readthedocs.io/en/latest/
+.. _matplotlib: https://matplotlib.org/
+.. _cmocean: https://matplotlib.org/cmocean/
 
 .. |DOI| image:: https://zenodo.org/badge/123413406.svg
    :target: https://zenodo.org/badge/latestdoi/123413406
